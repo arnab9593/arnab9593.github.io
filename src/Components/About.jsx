@@ -15,18 +15,18 @@ const About = () => {
         <div id="about">
             <Container>
                 <div className='aboutBox'>
-                    <div className='about_leftBox'>red
+                    <div className='about_leftBox'>
                         <h1>Hello World! I'm Arnab Pal .</h1>
                         <Typical
                             className='typical'
                             loop={Infinity}
 
-                            steps={["I'm A Full Stack Web Developer", , 1000, "I'm a problemsolver", 500]}
+                            steps={["I'm A Full Stack Web Developer", , 1000, "I'm a problemsolver", 500, , "I'm selfmotivated", 500]}
 
                         />
                         <p>An enthusiastic Full Stack Web Developer with a strong set of technical as well as non-technical skills and a dedication towards creating useful and interactive web applications.</p>
                         <a href="https://drive.google.com/file/d/14BdzxKEpVmoHwNjUqMDB9vnTl8lZeRBr/view?usp=sharing">
-                            <button style={{ backgroundColor: "#32AFE5" }} data-aos='fade-left'>Download CV<DownloadIcon /></button>
+                            <button style={{ backgroundColor: "#32AFE5", border: "0px" }} data-aos='fade-left'>Download CV<DownloadIcon /></button>
                         </a>
 
                     </div>
@@ -51,7 +51,7 @@ const About = () => {
                     </div>
                     <div className='right'>
 
-                        <h2>I am a <span>MERN Stack Developer</span></h2>
+                        <h2>I am a <span style={{ color: "#32AFE5" }} >MERN Stack Developer</span></h2>
                         <p>My name is Arnab Pal, I am from Burdwan, WestBengal. Fulstack Developer with the ability to learn and collaborate in rapidly changing environments and compositions. Worked through 1000+ hours of Bootcamp structure learning JavaScript, Node.Js, React.Js, MongoDB, Express, HTML5, and CSS3.</p>
 
                     </div>
@@ -84,7 +84,7 @@ const Container = styled.div`
     }
 
     .typical {
-        color: #84cfba !important;
+        color: #32AFE5 !important;
         
 
         font-weight:700 !important;

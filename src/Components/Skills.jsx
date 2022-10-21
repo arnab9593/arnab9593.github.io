@@ -82,7 +82,7 @@ const Container = styled.div`
     margin:auto;
     
     h1{
-        color:#01a479;
+        color:#32AFE5;
         text-transform:uppercase;
     }
 
